@@ -26,7 +26,7 @@
                             <a class="location" :href="locationURL" target="_blank"></a>
                             <address>10491 台北市中山區新生北路二段 38 號</address>
                         </div>
-                        <p>長春餐廳地下室停車場可以當天免費停車兩小時</p>
+                        <p style="font-size: 12.5px;">長春餐廳地下室停車場可以當天免費停車兩小時</p>
                     </div>
                     <div class="main-image"></div>
                 </section>
@@ -91,7 +91,7 @@
                 methods: {
                     addMessage: function (event) {
                         // `this` inside methods points to the Vue instance
-                        alert(this.guestName + ' 說 ' + this.guestMessage);
+                        //alert(this.guestName + ' 說 ' + this.guestMessage);
                         let url = 'https://gentle-harbor-89766.herokuapp.com/messages';
                         let iconNameAry = ["eat", "family", "hat", "love", "nerd", "party"];
                         let randomIndex = Math.floor(Math.random() * iconNameAry.length) ;
