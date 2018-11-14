@@ -210,7 +210,8 @@
     width: 28%;
     background-color: #f1f3f4;
     margin: 70px 20px 50px;
-    padding-bottom: 36px;
+    padding: 0 22px 36px;
+    box-sizing: border-box;
   }
   .message-list li img {
     width: 120px;
