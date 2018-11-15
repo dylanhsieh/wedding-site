@@ -48,7 +48,8 @@
                     <h2>{{ messages.length }}則留言</h2>
                     <ol class="message-list">
                         <li v-for="message in messages">
-                            <img  v-bind:src="'images/' + message.Image + '.svg'"/><div>{{message.Name}} 說</div><pre>{{message.Message}}</pre>
+                            <img  v-bind:src="'images/' + message.Image + '.svg'"/><div>{{message.Name}} 說</div>
+                            <pre>{{message.Message}}</pre>
                         </li>
                     </ol>
                 </section>
