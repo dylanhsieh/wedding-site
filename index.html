@@ -111,8 +111,11 @@
                                 /* 成功拿到資料，然後... */
                                 console.log('success');
                                 this.getMessage();
+                                this.guestName = '';
+                                this.guestMessage = '';
                             }) .catch((response) => {
                                 /* 失敗，發生錯誤，然後...*/
+                                alert('資料傳輸有誤，請再試一次。');
                             })
                             .finally(() => {
                                 /* 不論成功失敗，都做些事 */
